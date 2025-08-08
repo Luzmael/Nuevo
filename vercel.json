@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/tienda-1", "destination": "/tiendas/tienda-1/index.html" },
+    { "source": "/tienda-2", "destination": "/tiendas/tienda-2/index.html" },
+    { "source": "/", "destination": "/public/index.html" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/tienda-1/(.*)", "dest": "/tiendas/tienda-1/$1" },
+    { "src": "/tienda-2/(.*)", "dest": "/tiendas/tienda-2/$1" }
+  ]
+}
