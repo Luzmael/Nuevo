@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "name": "Zapatos deportivos",
+    "description": "Zapatos para running de última generación",
+    "price": "$89.99",
+    "image": "zapatos-deportivos.jpg",
+    "images": ["zapatos-2.jpg", "zapatos-3.jpg"],
+    "sizes": ["38", "39", "40"],
+    "colors": ["#FF0000", "#000000"],
+    "category": "Calzado"
+  }
+]
